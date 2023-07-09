@@ -1,20 +1,28 @@
 body {
       font-family: Arial, sans-serif;
       background-color: #09104B;
+      background: url(img/bg2.jpg);
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
 
-    h1 {
+    h1{
+      text-transform: uppercase;
+      place-content: center;
       text-align: center;
-      margin-top: 50px;
-      color: #fff;
+
     }
 
     .container {
-      max-width: 800px;
+      max-width:100%;
+      width: 800px;
       margin: 0 auto;
-      padding: 50px;
+      padding: 30px;
       background-color: #fff;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      opacity: 90%;
     }
 
     img {
@@ -26,34 +34,8 @@ body {
       object-fit: cover;
       object-position: center;
       margin-bottom: 20px;
+      opacity: 1;
     }
-
-    p {
-      font-size: 18px;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin-bottom: 20px;
-    }
-
-    ul li {
-      display: inline-block;
-      margin-right: 20px;
-    }
-
-    ul li:last-child {
-      margin-right: 0;
-    }
-
-    ul li span {
-      font-weight: bold;
-    }
-    
-
     h4 {
         text-align: center;
         margin-top: 50px;
@@ -69,7 +51,6 @@ body {
         display: inline-block;
         font-size: 16px;
         margin: 10px 10px;
-        transition-duration: 0.4s;
         cursor: pointer;
        
       }
@@ -77,11 +58,11 @@ body {
       .button-1 {
         background-color: white; 
         color: black; 
-        border: 2px solid #F2BAE8;
+        border: 2px solid #008CBA;
       }
       
       .button-1:hover {
-        background-color: #F2BAE8;
+        background-color: #008CBA;
         color: white;
       }
       
@@ -92,6 +73,16 @@ body {
       }
       
       .button-2:hover {
+        background-color: #008CBA;
+        color: white;
+      }
+      .button-3 {
+        background-color: white; 
+        color: black; 
+        border: 2px solid #008CBA;
+      }
+      
+      .button-3:hover {
         background-color: #008CBA;
         color: white;
       }
